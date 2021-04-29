@@ -29,7 +29,7 @@ else:
     print("завершение")
 
 
-vk_session = vk_api.VkApi('+79530984289', 'bW6"@-!hYC;-2p=V№-s%r-A')
+vk_session = vk_api.VkApi('log', 'pss')
 vk_session.auth()
 
 vk = vk_session.get_api()
