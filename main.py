@@ -12,7 +12,7 @@ i = 1
 result = input("ты хочешь запустить авто статус? ")
 
 if result == "да":
-    vk_session = vk_api.VkApi('+79530984289', 'bW6"@-!hYC;-2p=V№-s%r-A')
+    vk_session = vk_api.VkApi('Login', 'Passworld')
     vk_session.auth()
     i = 1
     vk = vk_session.get_api()
